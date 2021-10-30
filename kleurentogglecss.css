@@ -1,0 +1,120 @@
+
+  body {
+    background-color: rgb(194, 194, 194);
+  }
+  
+  nav {
+    background-color: #ffa69e;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    left: -210px;
+    top: 0px;
+    transition: 0.6s;
+  }
+  
+  nav.active {
+    left: 0px;
+  }
+  
+  h1 {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    position: relative;
+    left: 240px;
+    top: 50px;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    margin-left: 0px;
+    margin-top: 400px;
+  }
+  
+  input {
+    display: block;
+    position: relative;
+    left: 20px;
+    top: 15px;
+    transform: scale(1.5);
+  }
+  
+  .burgerMenu {
+    display: flex;
+    position: fixed;
+    top: 20px;
+    margin-left: 220px;
+  }
+  
+  .burgerMenu span,
+  .burgerMenu span::before,
+  .burgerMenu span::after {
+    display: block;
+    background: black;
+    height: 6px;
+    width: 4em;
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  .burgerMenu span::before,
+  .burgerMenu span::after {
+    content: "";
+    position: absolute;
+  }
+  
+  .burgerMenu span::before {
+    bottom: 10px;
+  }
+  
+  .burgerMenu span::after {
+    top: 10px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 200px;
+    margin-top: -225px;
+  }
+  
+  li {
+    display: block;
+    width: 200px;
+    height: 550px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #home__color {
+    background-color: rgb(194, 194, 194);
+  }
+  
+  #darkblue__color {
+    background-color: #003d5b;
+  }
+  
+  #red__color {
+    background-color: #d1495b;
+  }
+  
+  #blue__color {
+    background-color: #30638e;
+  }
+  
+  #green__color {
+    background-color: #38b000;
+  }
+  
+  #purple__color {
+    background-color: purple;
+  }
+
+    
+
+
+
